@@ -5,7 +5,7 @@
 
 using namespace std;
 
-namespace InfMatrix {
+namespace Inf {
 
     template<typename T, T defval>
     class InfMatrix;
@@ -80,7 +80,7 @@ namespace InfMatrix {
     };
 }
 
-using namespace InfMatrix;
+using namespace Inf;
 
 void test() {
     InfMatrix<int, -1> matrix;
